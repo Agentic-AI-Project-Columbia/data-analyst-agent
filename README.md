@@ -80,7 +80,7 @@ We will use:
 
 * **Backend / frontend server:** FastAPI
 * **Agent framework:** LangGraph
-* **LLM access layer:** LiteLLM
+* **LLM access layer:** OpenAI SDK
 * **Main model:** Gemini
 * **EDA / analysis:** pandas + DuckDB
 * **Data source:** Inside Airbnb
