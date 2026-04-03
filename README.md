@@ -86,31 +86,6 @@ We will use:
 * **Data source:** Inside Airbnb
 * **Deployment:** Render / Railway / similar FastAPI-friendly hosting
 
----
-
-## Why FastAPI Instead of Streamlit
-
-We want a cleaner separation between:
-
-* API backend
-* agent workflow
-* frontend interaction layer
-
-FastAPI gives us:
-
-* a real API structure
-* easy integration with agent workflows
-* better deployment flexibility
-* cleaner engineering structure for a team project
-
-The frontend can be:
-
-* a simple HTML page served by FastAPI, or
-* a lightweight separate frontend later if needed
-
-For the class demo, even a minimal FastAPI web interface is enough as long as it is interactive.
-
----
 
 ## Agent Architecture
 
